@@ -1,0 +1,38 @@
+[0925/232041.446:ERROR:process_reader_win.cc(127)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
+[0925/232041.496:ERROR:exception_snapshot_win.cc(100)] thread ID 184260 not found in process
+[1010/231943.017:ERROR:directory_reader_win.cc(43)] FindFirstFile: 系统找不到指定的路径。 (0x3)
+[1011/003129.750:ERROR:process_reader_win.cc(127)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
+[1011/003129.740:ERROR:process_reader_win.cc(127)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
+[1011/003129.770:ERROR:exception_snapshot_win.cc(100)] thread ID 1804 not found in process
+[1011/003129.770:ERROR:exception_snapshot_win.cc(100)] thread ID 17848 not found in process
+[1011/003131.000:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x8007012B)
+[1011/003131.000:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[1011/003131.000:ERROR:crash_report_exception_handler.cc(134)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x20731010000 of 64 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[1011/003131.010:ERROR:minidumpwritedump_with_crashpad_info.cc(452)] Failed to call MiniDumpWriteDump: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x8007012B)
+[1011/003131.010:ERROR:minidumpwritedump_with_crashpad_info.cc(661)] Failed to write minidump file
+[1011/003131.010:ERROR:crash_report_exception_handler.cc(134)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x18b10ab0000 of 64 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x20730b0a6f0 of 72 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\86.0.622.38\msedge_elf.dll
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x20731010000 of 64 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x20731010000 of 64 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x20730b4c190 of 72 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\86.0.622.38\msedge.dll
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x18b104ea6f0 of 72 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Microsoft\Edge\Application\86.0.622.38\msedge_elf.dll
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x18b10ab0000 of 64 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x18b10ab0000 of 64 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff901f10000 of 64 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Microsoft\Edge\Application\86.0.622.38\msedge.dll
+[1011/003131.010:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff901f10000 of 64 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[1011/003131.010:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Microsoft\Edge\Application\86.0.622.38\msedge.dll
+[1017/202004.171:ERROR:directory_reader_win.cc(43)] FindFirstFile: 系统找不到指定的路径。 (0x3)
+[1018/165334.164:ERROR:directory_reader_win.cc(43)] FindFirstFile: 系统找不到指定的路径。 (0x3)
+[1020/220143.313:ERROR:directory_reader_win.cc(43)] FindFirstFile: 系统找不到指定的路径。 (0x3)
