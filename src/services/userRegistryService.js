@@ -10,7 +10,7 @@ export default {
   async userRegistry (userMessage) {
     return request({
       method: 'POST',
-      url: '/user/registry',
+      url: '/registry',
       data: userMessage
     })
   },
@@ -23,7 +23,7 @@ export default {
   async checkPhoneExist (phone) {
     return request({
       method: 'GET',
-      url: '/user/checkPhoneExist/' + phone,
+      url: '/checkPhoneExist/' + phone,
       data: null
     })
   },
@@ -31,7 +31,7 @@ export default {
   async resetPasswordByPhone (resetPasswordMessage) {
     return request({
       method: 'PUT',
-      url: '/user/resetPasswordByPhone',
+      url: '/resetPasswordByPhone',
       data: resetPasswordMessage
     })
   },
@@ -39,7 +39,7 @@ export default {
   async resetPasswordByUserName (resetPasswordMessage) {
     return request({
       method: 'PUT',
-      url: '/user/resetPasswordByUserName',
+      url: '/resetPasswordByUserName',
       data: resetPasswordMessage
     })
   },
@@ -47,7 +47,7 @@ export default {
   async resetPasswordByEmail (resetPasswordMessage) {
     return request({
       method: 'PUT',
-      url: '/user/resetPasswordByEmail',
+      url: '/resetPasswordByEmail',
       data: resetPasswordMessage
     })
   }

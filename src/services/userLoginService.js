@@ -10,7 +10,7 @@ export default {
   async loginByIdentifyCode (params) {
     return request({
       method: 'POST',
-      url: '/user/loginByCode',
+      url: '/loginByCode',
       data: params
     })
   },
@@ -23,7 +23,7 @@ export default {
   async loginByPassword (params) {
     return request({
       method: 'POST',
-      url: '/user/loginByPassword',
+      url: '/loginByPassword',
       data: params
     })
   }

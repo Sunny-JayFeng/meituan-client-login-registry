@@ -9,7 +9,7 @@ export default {
   async checkAccountSafe (account) {
     return request({
       method: 'POST',
-      url: '/user/checkAccountSafe',
+      url: '/checkAccountSafe',
       data: {'account': account}
     })
   },
@@ -22,7 +22,7 @@ export default {
   async retrievePassword (params) {
     return request({
       method: 'PUT',
-      url: '/user/retrievePassword',
+      url: '/retrievePassword',
       data: params
     })
   }

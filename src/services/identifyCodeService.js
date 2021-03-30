@@ -10,7 +10,7 @@ export default {
   async getIdentifyCode (phone) {
     return request({
       method: 'GET',
-      url: '/user/getIdentifyCode/' + phone,
+      url: '/getIdentifyCode/' + phone,
       data: null
     })
   }

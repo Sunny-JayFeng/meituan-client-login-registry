@@ -11,7 +11,7 @@ export default {
   async verifyCheckIdentifyCode (params) {
     return request({
       method: 'POST',
-      url: '/user/verifyCheckIdentifyCode',
+      url: '/verifyCheckIdentifyCode',
       data: params
     })
   },
@@ -24,7 +24,7 @@ export default {
   async checkExistsTicket (phone) {
     return request({
       method: 'POST',
-      url: '/user/checkExistsTicket/' + phone,
+      url: '/checkExistsTicket/' + phone,
       data: null
     })
   }
